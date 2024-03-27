@@ -59,6 +59,7 @@ int main() {
             args[i++] = token; // Заполнение массива аргументов
             token = strtok(NULL, " ");
         }
+
         args[i] = NULL;
 
         if (args[0] == NULL) {
